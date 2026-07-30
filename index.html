@@ -3,16 +3,21 @@
 
 <head>
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<div id="hero">
 
-    <h1>Hamza Yasser Sayed</h1>
+     <h1>Hamza Yasser Sayed</h1>
 
-    <p>
-        Hello! Welcome to my first HTML website.
+<p class="highlight">
+        Hello! Welcome to my first HTML & CSS website.
     </p>
 
+</div>
+
+<div class="card">
     <hr>
 
     <section>
@@ -21,7 +26,7 @@
 
         <p>
             My name is Hamza Yasser Sayed.
-            I am learning HTML.
+            I am learning HTML & CSS.
             I love programming.
         </p>
 
@@ -56,7 +61,8 @@
     <button>
         Click Here
     </button>
-
+</div>
+<div class="card">
     <hr>
 
     <section>
@@ -65,16 +71,19 @@
 
         <form>
 
-            <label>Your Name</label>
-            <br>
-            <input type="text">
+             <label for="name">Your Name</label>
+                <input
+                    id="name"
+                    type="text"
+                    placeholder="Enter your name"
+                    required>
 
-            <br><br>
-
-            <label>Your Email</label>
-            <br>
-            <input type="email">
-
+                <label for="email">Your Email</label>
+                <input
+                    id="email"
+                    type="email"
+                    placeholder="Enter your email"
+                    required>
             <br><br>
 
             <button type="submit">
@@ -84,7 +93,7 @@
         </form>
 
     </section>
-
+</div>
 </body>
 
 </html>
